@@ -16,7 +16,6 @@ public class ChaBingJi {
             return k;
         }
     }
-
     public static void main(String[] args) {
         int ret = 1;
         Arrays.fill(cnt,1);
