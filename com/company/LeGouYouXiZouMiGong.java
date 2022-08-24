@@ -57,12 +57,6 @@ public class LeGouYouXiZouMiGong {
         }
         hp = hp-cave[i][j];
         visited[i][j] = 1;
-        //   System.out.println("i=  "+i+"  j=  "+j + "   hp=" +hp);
-//        if(hp<=0){
-//            hp = hp + cave[i][j];
-//            visited[i][j] = 0;
-//            return;
-//        }
         //四个方向
         dfs(cave,  i, j+1, m, n);
         dfs(cave,  i-1, j, m, n);
