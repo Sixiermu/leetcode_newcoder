@@ -1,7 +1,7 @@
 package com.newcoder;
 
 /**
- * @description: BM57 岛屿数量 dfs 或者查并集
+ * @description: BM57 岛屿数量 dfs 或者查并集（find union   num parent cnt）
  * @author: sixiermu
  * @time: 2022/8/23 14:17
  */
@@ -116,7 +116,6 @@ public class DaoYuShuLiang {
                 }
             }
         }
-
         return lands - disjointSet.jointNumber;
     }
 }
